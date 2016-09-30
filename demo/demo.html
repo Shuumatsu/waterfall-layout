@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>waterfall</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="waterfall" data-option='{"breakPoints":[480,720,960,1080],"gap":"1rem"}'>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+        <div class="waterfall-item">
+
+        </div>
+    </div>
+
+    <button type="button">add items</button>
+</body>
+<script>
+    let items = Array.from(document.querySelectorAll('.waterfall-item'));
+
+    items.forEach(v => {
+        let height = Math.random() * 200;
+        v.style.height = height + 'px';
+    });
+</script>
+<script defer src="demo.js">
+    
+</script>
+
+</html>
